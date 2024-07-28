@@ -1,0 +1,2 @@
+Vite - 5.2.12 (Command : npm install vite )
+TailWind css - Node_module ( Command : npm install -D tailwindcss )

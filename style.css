@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: itim;
+}
+
+/* Membership container color */
+.container1,
+.container2 {
+    background:linear-gradient(#FF0000 , #3829E1 47% , #42FF00 100%);
+}
+
+/* footer section CSS */
+.footer2_element a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000;
+    line-height: 35px;
+}
+.footer3_element a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000 ;
+    line-height: 35px;
+}
+
+/* hover effect of the footer element achor tags  */
+.footer2_element a:hover,
+.footer3_element a:hover{
+    color: orange;
+    transition: all 0.3s;
+}
+
+/* first part of the contact  */
+.contact_start {
+    background-image: url("/imgs/contact\ 1.jpg");
+}
+
+/* second part of the contact  */
+.contact_end .contact_form input{
+    border: 2px solid black;
+}
